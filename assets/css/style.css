@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: black;
+  background: #a103fc;
   height: 70px;
   transition: all 0.5s;
 }
@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #a103fc;
+  background-color: white;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -447,10 +447,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #6b5567;
-  border: 2px solid #6b5567;
+  background: #a103fc;
+  border: 2px solid #a103fc;
 }
 
+.iconcolor
+{
+  color:#a103fc;
+}
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
@@ -822,7 +826,7 @@ section {
   bottom: -50px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: #6b5567;
+  background: #a103fc;
   padding: 15px 20px;
 }
 
@@ -963,16 +967,20 @@ section {
   font-size: 13px;
 }
 
+.social{
+  color: #a103fc;
+}
 #team .member .social {
   margin-top: 15px;
+  color: #a103fc;
 }
 
 #team .member .social a {
-  color: #b3b3b3;
+  color: #a103fc;
 }
 
 #team .member .social a:hover {
-  color: #6b5567;
+  color: #a103fc;
 }
 
 #team .member .social i {
@@ -993,12 +1001,12 @@ section {
 }
 
 #contact .info {
-  color: #333333;
+  color: #a103fc;
 }
 
 #contact .info i {
   font-size: 32px;
-  color: #6b5567;
+  color: #a103fc;
   float: left;
   line-height: 0;
 }
