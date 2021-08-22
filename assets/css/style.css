@@ -791,7 +791,7 @@ section {
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
-  color: #666666;
+  color: #a103fc;
   margin: 0 5px 10px 5px;
   transition: all ease-in-out 0.3s;
   background: white;
@@ -800,7 +800,7 @@ section {
 
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #6b5567;
+  background: #a103fc;
 }
 
 #portfolio #portfolio-flters li:last-child {
